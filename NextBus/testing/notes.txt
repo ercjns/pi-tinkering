@@ -1,0 +1,22 @@
+Bus Tracking:
+
+Hit the text based server, for example:
+http://pugetsound.onebusaway.org/where/text/stop.action?id=1_11200
+returns the mobileweb results, which can be parsed relatively easily. Hit them once every 60 seconds? For the following stops:
+
+Route 49:
+U District: 11200
+CBD: 
+
+Route 8:
+Seattle Center:
+
+Route 545:
+Redmond:
+
+
+potentially also hit the API with the key "TEST" because that seems to be working, but they probably don't like that. ;)
+http://api.onebusaway.org/api/where/arrivals-and-departures-for-stop/1_11200.xml?key=TEST
+
+
+
